@@ -17,7 +17,7 @@ python src/generate_data.py          # builds data/app.db (skip if it already ex
 streamlit run app.py
 ```
 
-Open http://localhost:8501 and sign in with one of the demo accounts below.
+**Live demo:** https://dept-pulse-live.streamlit.app
 
 Run the tests:
 
