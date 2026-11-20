@@ -1,0 +1,23 @@
+# Secrets — never commit real credentials
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Generated reviewer workbook (rebuild with python src/generate_data.py)
+data/*.xlsx
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
